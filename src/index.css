@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Login{
+  width: 572px;
+  height: 588px;
+  flex-shrink: 0;
+  border: 1px solid #949494;
+  background: #FFF;
+  box-shadow: 0px 82px 40px -14px rgba(100, 100, 100, 0.08);
+  align-items: center;
+  margin: 50px;
+  margin-left: 250px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title{
+  margin-left: 100px;
+  text-align: center;
+  width: 380px;
+  color: #000;
+  font-family: Zen Kaku Gothic Antique;
+  font-size: 31.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37.5px; 
+}
+.info{
+  text-align: center;
+  color: #757575;
+  font-family: Zen Kaku Gothic Antique;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Email{
+  margin-left: 85px;
+  align-items: center;
+  width: 380px;
+  height: 68px;
+  flex-shrink: 0;border: 1px solid #212121;
+  background: #FFF;
+}
+.Email ::placeholder{
+  color: #424242;
+  font-family: Zen Kaku Gothic Antique;
+  font-size: 10.29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.06px;
+}
+.Password{
+  margin-left: 85px;
+  width: 380px;
+  height: 68px;
+  flex-shrink: 0;
+  border: 1px solid #E0E0E0;
+  background: #FFF;
+}
+.Password ::placeholder{
+  color: #616161;
+  font-family: Zen Kaku Gothic Antique;
+  font-size: 10.29px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.06px; 
+}
+.Eye{
+  padding: 20px;
+  margin-left: -50px;
+  width: 20px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.Checkbox{
+  position: relative;
+  width: 21.524px;
+  height: 22px;
+  margin: 10px;
+  bottom: -5px;
+  margin-left: 85px;
+}
+.forgot{
+position: relative;
+bottom: 27px;
+margin-left: 335px;
+}
+.btn{
+  margin-left: 85px;
+  width: 380px;
+  height: 64px;
+  flex-shrink: 0;
+  background: #212121;
+}
+/* Crossball */
+.Crossball{
+  padding-top: 50px;
+  margin: 50px;
+}
+.table tr{
+  width: 1015px;
+  height: 40px;
+  flex-shrink: 0;
+  background: var(--white, #FFF);
+  border: 1px solid #bdaeae;
+}
+.tr__line{
+  width: 715px;
+  height: 40px;
+  background-color: #000;
+}
+.grey{
+  color: #bdaeae;
+  color: var(--black-50, #909090);
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.level{
+  color: var(--blue, #5A60E7);
 }
